@@ -82,7 +82,7 @@
 			</cfscript>
 			<div class="mura-asset">
 				<a class="mura-meta-image-link" href="#$.content().getImageURL()#" title="#esapiEncode('html_attr', $.content('title'))#" rel="shadowbox[body]">
-					<img class-"mura-meta-image carouselimage" src="#img#" alt="#esapiEncode('html_attr', $.content('title'))#">
+					<img class="mura-meta-image carouselimage" src="#img#" alt="#esapiEncode('html_attr', $.content('title'))#">
 				</a>
 			</div>
 		</cfif>
